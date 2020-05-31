@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Let's Learn It|A Place to Improve your Skills</title>
+	<style type="text/css">
+		.navbar{
+			     width: 100%;
+			     height: 80px;
+			     background-color: rgba(0,0,255,0.7);
+			     text-align: center;
+
+		}
+		strong{
+			     font-family: cursive;
+			     color: white;
+			     font-size: 40px;
+			     margin-top: -3%;
+
+		}
+		b{
+			color: yellow;
+		}
+		pre{
+			font-size: 38px;
+			margin-left: 25%;
+			margin-top: -10%;
+			color: white;
+		}
+		.fs{
+			  border:1px solid red;
+			  width: 200px;
+			  height: 40px;
+			  border-radius: 20px;
+			  margin-top: 1%;
+			  text-align: center;
+			  margin-left: 55%;
+			  font-family: Verdana;
+			  font-size: 30px;
+			  color: blue;
+		}
+		.syll{
+			   background-color: rgba(0,150,200,0.4);
+			   width: 250px;
+			   height: 500px;
+			   margin-left: 1%;
+			   margin-top: -1%;
+		}
+		.syll a li{
+			       color:green;
+			       font-size: 25px;
+			       font-family: times new roman;
+			       margin-right: 1%;
+			       margin-left: 8%;
+			       text-decoration: none;
+
+		}
+		.main{
+			    margin-left: 30%;
+			    margin-top: -35%;
+			    width: 800px;
+			    height: 500px;
+			    border-radius: 20px;
+			    border:1px solid black;
+			    text-align: center;
+		}
+		.main2{
+			    margin-left: 30%;
+			    margin-top: -35%;
+			    width: 800px;
+			    height: 500px;
+			    border-radius: 20px;
+			    border:1px solid black;
+			    text-align: center;
+			    display: none;
+		}
+		.main p{
+			       font-family: times new roman;
+			       text-align: center;
+
+		}
+		.main b{
+			     color: black;
+		}
+		button{
+			     margin-left: 50%;
+			     width: 100px;
+			     margin-top: 2%;
+			     background-color: green;
+			     border-radius: 20px;
+			     color: white;
+			     outline:none;	
+			     }
+	</style>
+</head>
+<body>
+	<div class="navbar">
+		<img src="books.png" style="margin-left: -70%; margin-top:1%; height: 50px;">
+		<strong>Let's <b>l</b>earn <b>i</b>t</strong><img src="play.png" height="40px" style="border-radius: 50%; margin-top: 2%;">
+		<p style="color: white; margin-top: -7%; font-size: 70px; margin-left: -39%; font-family: cursive">|</p>
+		<pre>Improve your <strong>Skills</strong> in an <b>effective</b> way</pre>
+	</div>
+	<div class="fs">
+		Python
+	</div>
+	<div class="syll">
+		<br>
+		<a href=""><li>Introduction</li></a>
+		<a href="dt.html"><li>Data Types</li></a>
+		<a href=""><li>Python Variables</li></a>
+		<a href=""><li>Python Variables</li></a>
+		<a href=""><li>Python Libraries</li></a>
+		<a href=""><li></li></a>
+
+
+	</div>
+	<div class="main" id=md>
+		<p><b>Python Data Types</b><br>
+Data types are the classification or categorization of data items. Data types represent a kind of value which determines what operations can be performed on that data.<b>Numeric, non-numeric and Boolean (true/false)</b> data are the most used data types. However, each programming language has its own classification largely reflecting its programming philosophy.<br>
+<br>
+A numeric value is any representation of data which has a numeric value.<br>
+<br>
+Python identifies three types of numbers:<br>
+
+<b>Integer:</b> Positive or negative whole numbers (without a fractional part).<br>
+<b>Float:</b> Any real number with a floating point representation in which a fractional component is denoted by a decimal symbol or scientific notation.<br>
+<b>Complex number:</b> A number with a real and imaginary component represented as x+yj. x and y are floats and j is -1(square root of -1 called an imaginary number).<br></p>
+        <button style="margin-left: -5%;" onclick="hd()">Next</button>
+	</div>
+	<div class="main2" id=md1>
+		<button style="margin-left: -5%;" onclick="hd()">Next</button>
+	</div>
+	<button onclick="as()">←Previous</button><button onclick="">Next→</button>
+    <script type="text/javascript">
+  	function as(){
+  		            window.location = "py.html";
+  	}
+  	function hd(){
+  		            document.getElementById('md').display=none;
+  		            document.getElementById("md1").display=block;
+  	}
+  </script> 
+</body>
+</html>
